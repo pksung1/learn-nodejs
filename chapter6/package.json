@@ -1,0 +1,17 @@
+{
+  "name": "chapter5",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3"
+  }
+}

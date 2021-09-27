@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/local/Cellar/node/15.14.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add express
+
+PATH: 
+  /usr/local/opt/ruby/bin:/usr/local/opt/openssl@1.1/bin:/Users/psw/.gem/ruby/2.6.3/bin:/Users/psw/.rvm/gems/ruby-3.0.0/bin:/Users/psw/.rvm/gems/ruby-3.0.0@global/bin:/Users/psw/.rvm/rubies/ruby-3.0.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openssl@1.1/bin:/Users/psw/opt/anaconda3/condabin:/Users/psw/.gem/ruby/2.6.3/bin:/Users/psw/.rvm/gems/ruby-3.0.0/bin:/Users/psw/.rvm/gems/ruby-3.0.0@global/bin:/Users/psw/.rvm/rubies/ruby-3.0.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/psw/Library/Android/sdk/emulator:/Users/psw/Library/Android/sdk/tools:/Users/psw/Library/Android/sdk/tools/bin:/Users/psw/Library/Android/sdk/platform-tools:/Users/psw/.rvm/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin:/Users/psw/Library/Android/sdk/emulator:/Users/psw/Library/Android/sdk/tools:/Users/psw/Library/Android/sdk/tools/bin:/Users/psw/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "chapter5",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "nodemon app.js"
+    },
+    "main": "app.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
